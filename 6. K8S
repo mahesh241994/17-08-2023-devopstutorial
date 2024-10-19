@@ -1,3 +1,5 @@
+DAY-1
+------
 DOCKER SWARM:
 CLUSTER 
 NODES
@@ -422,6 +424,10 @@ HISTORY:
    45  kubectl delete pod pod1
    46  history
 ===========================================================
+
+
+DAY-2 
+==============
 KOPS:
 INFRASTRUCTURE: Resources used to run our application on cloud.
 EX: Ec2, VPC, ALB, -------------
@@ -540,7 +546,8 @@ HISTORY:
    43  history
 
 ==================================================================================================================
-
+DAY-3
+===========
 NAMESPACES:
 
 NAMESPACE: It is used to divide the cluster to multiple teams on real time.
