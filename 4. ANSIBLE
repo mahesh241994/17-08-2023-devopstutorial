@@ -377,8 +377,8 @@ ansible all -a "yum remove git* maven* docker* tree* -y"
       yum: name={{e}} state=present
 
 
- single var: ansible-playbook raham.yml --extra-vars "d=tree"
- multi var: ansible-playbook raham.yml --extra-vars "d=tree e=java-1.8.0-openjdk"
+ single var: ansible-playbook raham.yml --extra-vars "d=tree"  ---> Dynamic Vars
+ multi var: ansible-playbook raham.yml --extra-vars "d=tree e=java-1.8.0-openjdk", ---> Dynamic Vars
 
 sed -i "s/present/absent/g" raham.yml
  multi var: ansible-playbook raham.yml --extra-vars "d=tree e=java-1.8.0-openjdk"
