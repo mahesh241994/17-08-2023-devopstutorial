@@ -699,8 +699,9 @@ HISTORY:
   246  ansible-galaxy search --author alikins
   247  history
 
-===============================================
-
+=========================================================================================
+DAY-5
+======
 ansible_hostname
 ansible_memfree_mb
 ansible_memtotal_mb
@@ -749,7 +750,7 @@ BATCH:
     - debug:
         msg: "hai my user name is {{a}}"
 
-=============================================================================
+
 
 LAMP:
 L : LINUX
@@ -769,7 +770,7 @@ P : PHP
     - name: installing python
       yum: name=python3 state=present
 
-=============================================================================
+=========
 
 NETFLIX DEPLOPYMET:
 
